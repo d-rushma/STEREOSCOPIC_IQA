@@ -43,4 +43,19 @@ The database contains 15 indoor and 5 outdoor images out of the 20 scenarios to 
 # **STEPS**
 ### 1) Calculate SSIM Score
 Calculate structural similarity index score for each of the stereoscopic image and take the average score as the final score of the stereopair.
+![image](https://github.com/user-attachments/assets/226c41cf-bc06-4aa0-b1ff-98719749778e)
 
+Shown in following ipynb file:  
+📋 https://github.com/d-rushma/STEREOSCOPIC_IQA/blob/master/MODEL/StereoImageQualityAssessment.ipynb  
+### 2) Constructing Saliency Maps using Wavelet Transform
+![image](https://github.com/user-attachments/assets/08e1cee3-8f84-4ea8-a378-5063c187f406)
+![image](https://github.com/user-attachments/assets/e4c8796a-2745-4c33-949e-23efbfe457e6)
+### 3) Construction of Residual Network Block
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/4459888d-fd20-4421-aa37-80a14b7b50ae)
+### 4) Incorporating ResNet into Covolution Neural Networks
+![cnn (7) drawio (4)](https://github.com/user-attachments/assets/c23ad734-844e-496f-9f5d-3db7e5a253a4)
+# **RESULTS**
+Results on datasets LIVE phase-I IQA, phase-II IQA and 3D22MX. The best performance values are highlighted. 
+<img width="387" alt="{26EB64EE-B213-4679-A380-C68D92604BC3}" src="https://github.com/user-attachments/assets/b494dcd8-7673-438f-832b-a25995800752" />  
+PLCC, SROCC, RMSE and KROCC evaluation metrics values for all types of distortions of all the datasets
+<img width="433" alt="{DE186C35-4953-4C7E-A04A-0DABA5D040DC}" src="https://github.com/user-attachments/assets/28f99879-21ab-4d90-a6aa-0a668aae2e5d" />
